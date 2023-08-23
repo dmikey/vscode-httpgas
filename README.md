@@ -1,3 +1,3 @@
-# VS Code extension template
+# Just a Simple HTTP Extension
 
-This is a starting template for VS Code extensions
+Make HTTP Calls from VSCode

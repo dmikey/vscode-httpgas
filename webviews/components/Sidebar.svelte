@@ -15,4 +15,4 @@
     });
 </script>
 
-<h1>Sidebar Panel</h1>
+<h1>HttpGas</h1>

@@ -14,35 +14,35 @@
     "url": ""
   },
   "activationEvents": [
-    "onCommand:myextension.sayhello",
-    "onView:myextension-sidebar"
+    "onCommand:HttpGas.sayhello",
+    "onView:HttpGas-sidebar"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "myextension-sidebar-view",
+          "id": "HttpGas-sidebar-view",
           "title": "HttpGas",
           "icon": "media/icon.svg"
         }
       ]
     },
     "views": {
-      "myextension-sidebar-view": [
+      "HttpGas-sidebar-view": [
         {
           "type": "webview",
-          "id": "myextension-sidebar",
-          "name": "MyExtension",
+          "id": "HttpGas-sidebar",
+          "name": "HttpGas",
           "icon": "media/icon.svg",
-          "contextualTitle": "MyExtension"
+          "contextualTitle": "HttpGas"
         }
       ]
     },
     "commands": [
       {
-        "command": "myextension.sayhello",
-        "category": "MyExtension",
+        "command": "HttpGas.sayhello",
+        "category": "HttpGas",
         "title": "Say hello"
       }
     ]
